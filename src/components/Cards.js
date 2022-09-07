@@ -1,3 +1,4 @@
+//import {TiTick, TiTimes} from 'react-icons/ti'
 import Data from "./data";
 const Cards = () => {
   return (
@@ -13,8 +14,8 @@ const Cards = () => {
               <b>{item.rate} </b><span style={{fontWeight:100,color: '#b8b8b8'}}>/Month</span>
             </h1>
             </div>
-            
             {item.content}
+           
             <div className="button-card">
               <button>PROCEED & PAY</button>
             </div>

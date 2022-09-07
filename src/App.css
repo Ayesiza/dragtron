@@ -1,16 +1,24 @@
 
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #20242f;
+}
 .header {
   display:flex;
+  top:0;
   align-items:center;
   background-color: #20242f;
-  width:100vw;
+  width:100%;
+  padding: 10px 20px;
   position:fixed;
-  z-index:999;
+
 }
   a {
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  margin-left:20px;
   text-decoration: none;
   float:left;
 } 
@@ -24,6 +32,7 @@
   font-size: 1.1rem;
   /*font-size: calc(10px + 2vmin);*/
   color: #FFFF;
+  margin-top:10px;
  
 }
 .sub-header {
@@ -66,7 +75,7 @@ span{
 transform:scaleY(80%);
 bottom: -3%;
   left: 0;
-padding:0px;
+padding:10px;
 font-size:50px;
 transition: transform 500ms ease;
 }
@@ -97,14 +106,14 @@ button {
 .card b{
   color: #fff;
 }
-.card li{
-  list-style: square;
+ul li{
+  list-style: none;
   margin-bottom: 10px;
 }
 
 @media screen and (max-width: 600px) {
   .App {
-    padding-top: 20px;
+    margin-top: 40px;
   }
   
     .sub-header{

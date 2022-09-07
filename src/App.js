@@ -1,24 +1,24 @@
 import "./App.css";
 import Arrow from "./images/Group 2569.svg";
-import Logo from "./images/Dragatron..svg";
 import Stepiv from "./components/Stepiv";
 import Cards from "./components/Cards";
 
 function App() {
   return (
     <>
-    <nav className="header">
+    <div className="header">
         <a href="#Home">
+          
           <img src={Arrow} alt="arrow" />
         </a>
 
         <a href="#Home">
-          <img src={Logo} alt="logosCompa" />
+        <h2>Dragatron.</h2>
         </a>
-      </nav>
+      </div>
     
     <div className="App">
-      <div>
+      <div >
       <Stepiv/>
       <Cards/>
       </div>
