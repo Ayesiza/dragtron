@@ -2,16 +2,16 @@ import Data from "./data";
 const Cards = () => {
   return (
     <div>
-      {Data.map((lids, index) => {
+      {Data.map((item, index) => {
         return (
           <div key={index} className="card">
             <h3>
-              <span> {lids.title} </span>
+              <span> {item.title} </span>
             </h3>
-            <p>
-              <b>{lids.rate} </b>/Month
-            </p>
-            {lids.content}
+            <h1>
+              <b>{item.rate} </b><span style={{fontWeight:100,color: '#b8b8b8'}}>/Month</span>
+            </h1>
+            {item.content}
             <div className="button-card">
               <button>PROCEED & PAY</button>
             </div>
