@@ -1,10 +1,10 @@
 # Getting Started 
-Dragaton Pricing Table;
+Dragatron Pricing Table;
 
 ## Install Dependecies
 
  ### `npm install`
- 
+
 ## Available Scripts
 
 In the project directory, you can run:
