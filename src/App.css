@@ -99,7 +99,10 @@ button {
   transition: 0.25s; 
   }
   
-
+li d{
+  color: #b8b8b8;
+  opacity:0.5;
+}
 .card h3{
   text-align: center;
 }

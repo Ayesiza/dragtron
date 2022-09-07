@@ -27,8 +27,8 @@ const Data = [
                 <li><TiTick/> Accept <b>Payments</b></li>
                 <li><TiTick/> Both <b>In Person</b> & <b> Virtual trainings</b></li>
                 <li><TiTick/>Access to <b>manger customers health profile</b></li>
-                <li><TiTimes/><strike> <b> Verified</b> Profile  </strike> </li>
-                <li> <TiTimes/><strike> Access to <b>weekly newsletters</b> </strike></li>
+                <li><TiTimes/><d>  Verified Profile  </d> </li>
+                <li> <TiTimes/><d> Access to weekly newsletters </d></li>
             </ul>
         )
     },
@@ -37,13 +37,13 @@ const Data = [
         rate: "$ 99",
         tick: true,
         content: (
-            <ul>
+            <ul >
                 <li><TiTick/><b>Promote yourself </b> & reach thousands of user globally </li>
                 <li><TiTick/> Accept <b>Payments</b></li>
                 <li><TiTick/> Both <b>In Person</b> & <b> Virtual trainings</b></li>
                 <li><TiTick/>Access to <b>manger customers health profile</b></li>
-                <li> <TiTimes/><strike> <b> Verified</b> Profile</strike></li>
-                <li><TiTimes/> <strike>Access to <b>weekly newsletters</b> </strike></li>
+                <li> <TiTimes/><d>  Verified Profile</d></li>
+                <li><TiTimes/> <d>Access to weekly newsletters </d></li>
             </ul>
         )
     }
