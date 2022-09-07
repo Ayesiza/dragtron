@@ -1,4 +1,5 @@
 // eslint-disable-next-line no-unused-expressions
+import {TiTick} from 'react-icons/ti'
 const Data = [
     {
         title: "ALL ACCESS MEMBERSHIP",
@@ -19,7 +20,7 @@ const Data = [
         rate: "$ 199",
         content: (
             <ul>
-                <li><b>Promote yourself </b> & reach thousands of user globally </li>
+                <li ><b>Promote yourself </b> & reach thousands of user globally </li>
                 <li> Accept <b>Payments</b></li>
                 <li> Both <b>In Person</b> & <b> Virtual trainings</b></li>
                 <li>Access to <b>manger customers health profile</b></li>
